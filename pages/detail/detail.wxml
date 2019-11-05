@@ -1,0 +1,25 @@
+<!--pages/detail/detail.wxml-->
+<my-header title="商品详情"></my-header>
+<view>
+  <view>
+    <image src="{{obj.image}}"></image>
+  </view>
+  <view class="price">{{obj.price}}</view>
+  <view class="title">{{obj.store_name}}</view>
+  <view class="other">
+    <view class="oldPrice">原价：100</view>
+    <view class="storage">库存：{{obj.stock}}</view>
+    <view class="sale">已售：{{obj.sales}}</view>
+  </view>
+  <view class="discounts">
+    <text>优惠：</text>
+  </view>
+  <view class="select">
+    <text>选择：</text>
+  </view>
+  <view class="product">
+    <view class="pro_title">产品详情</view>
+    <view>正文</view>
+    <view></view>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  height: 94rpx;
+  padding-top: 64rpx;
+  padding-left: 20rpx;
+}
+.logo{
+  width: 160rpx;
+  height: 50rpx;
+}
+.logo image{
+  width: 100%;height: 100%;
+}
+.seach {
+  background: #ddd;
+  height: 64rpx;
+  width: 320rpx;
+  border-radius: 32rpx;
+  margin-left: 24rpx;
+  display: flex;
+}
+.seach input{
+  height: 64rpx;
+  padding-left:20rpx; 
+  line-height: 60rpx;
+}
+.iconfont{
+  padding: 12rpx 0 0 12rpx;
+}
+.back{
+  width: 60rpx;
+}
+.title{
+  width: 550rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.header2{
+  background: #e93323;
+}
+.header2 .back2{
+  color: #fff;
+}
+.header2 .title2{
+  color: #fff;
+}

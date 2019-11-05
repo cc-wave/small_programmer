@@ -1,0 +1,15 @@
+Component({
+  behaviors:[],
+  properties:{
+    flag:{
+      type:Boolean,
+      value:false
+    },
+    title:String,
+    color:{
+      type:Boolean,
+      value:false
+    }
+  },
+  data:{}
+})

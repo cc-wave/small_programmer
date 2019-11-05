@@ -1,0 +1,46 @@
+<my-header title="购物车"></my-header>
+<view class='shopcar'>
+ <view class='labelNav'>
+	<view class='item'><text class='iconfont icon-xuanzhong'></text>100%正品保证</view>
+	<view class='item'><text class='iconfont icon-xuanzhong'></text>所有商品精挑细选</view>
+	<view class='item'><text class='iconfont icon-xuanzhong'></text>售后无忧</view>
+</view>
+
+<view class='nav'>
+  <view>购物数量 <text class='num font-color'>3</text></view>
+</view>
+
+<view class="car">
+	<view class="item">
+  	<view class="left">
+			<checkbox></checkbox>
+			<image src="http://activity.crmeb.net/public/uploads/attach/2019/05/30//b58f452dc89775b344bade7fdc3ede14.jpg"></image>
+		</view>
+		<view class="center">
+			<view>2.0加湿器 白色 新品</view>
+			<view class="price">￥300.00</view>		
+		</view>
+		<view class="right">
+				<button>-</button>
+				<input value="1"></input>
+				<button>+</button>
+		</view>
+	</view>
+
+	<view class="item">
+  	<view class="left">
+			<checkbox></checkbox>
+			<image src="http://activity.crmeb.net/public/uploads/attach/2019/05/30//b58f452dc89775b344bade7fdc3ede14.jpg"></image>
+		</view>
+		<view class="center">
+			<view>2.0加湿器 白色 新品</view>
+			<view class="price">￥300.00</view>		
+		</view>
+		<view class="right">
+				<button>-</button>
+				<input value="1"></input>
+				<button>+</button>
+		</view>
+	</view>
+</view>
+</view>

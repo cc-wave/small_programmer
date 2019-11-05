@@ -1,0 +1,20 @@
+<!--components/header/header.wxml-->
+<view>
+  <view class="header" wx:if="{{flag}}">
+    <view class="logo">
+    <image src="/images/logo.png"></image>
+    </view>
+    <view class="seach">
+      <text class="iconfont icon-xiazai5"></text>
+      <input type="text"></input>
+    </view>
+  </view>
+  <view wx:else class="header {{color&&'header2'}}">
+    <view class="back iconfont icon-xiangzuo back2"
+    bindtap="back"></view>
+    <view class="title title2">
+      <text>{{title}}</text>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,93 @@
+/* pages/list/list.wxss */
+.tap{
+  background: #e93323;
+  border: 1rpx solid #e4746a;
+  display: flex;
+  justify-content: space-between;
+}
+.search{
+  background: #fff;
+  height: 64rpx;flex: 1;
+  border-radius: 32rpx;
+  margin: 15rpx 35rpx;
+  display: flex;
+}
+.search input{
+  padding-left: 20rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+}
+.toggle{
+  color: #fff;
+  margin: 15rpx 15rpx 0 0;
+  font-size: 58rpx;
+}
+.sort{
+  display: flex;
+  justify-content: space-around;
+  font-size: 34rpx;
+  height: 80rpx;
+  align-items: center;
+}
+.sort image{
+  width:15rpx; 
+  height: 19rpx;
+}
+.sort .active{
+  color: #e93323;
+  font-weight: bold;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #eee;
+  padding: 20rpx;
+  height: 990rpx;
+}
+.list .item{
+  width: 48.5%;
+}
+.list .item image{
+  width: 100%;height: 350rpx;
+}
+.list .title{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.price{
+  display: block;
+  color: #e93323;
+  font-weight: bold;
+}
+.sale{
+  font-size: 30rpx;
+  color: #666;
+  display: block;
+}
+.list2{
+  background: #eee;
+  height: 990rpx;
+}
+.list2 .item{
+  background: #fff;
+  padding: 20rpx;
+  border-top: 1rpx solid #eee;
+  display: flex;
+}
+.list2 .item image{
+  width: 30%;height: 150rpx;
+}
+.list2 .content{
+  margin-left: 15rpx;
+  flex: 1;
+}
+.list2 .title{
+  display: block;
+  width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

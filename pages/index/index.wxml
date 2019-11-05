@@ -1,0 +1,83 @@
+<!--pages/index/index.wxml-->
+<my-header flag="{{true}}"></my-header>
+<swiper>
+  <swiper-item>
+    <image class='banner' src='http://activity.crmeb.net/public/uploads/editor/20190115/5c3dc182bccac.jpg'></image>
+  </swiper-item>
+</swiper>
+
+<view class='nav'>
+  <view bindtap='goto'>
+    <image src="/images/nav-1.png"></image>
+    <text>新闻</text>
+  </view>
+  <view>
+      <image src="/images/nav-2.png"></image>
+      <text>新闻</text>
+  </view>
+  <view>
+    <image src="/images/nav-3.png"></image>
+    <text>新闻</text>
+  </view>
+  <view>
+    <image src="/images/nav-4.png"></image>
+    <text>新闻</text>
+  </view>
+  <view>
+    <image src="/images/nav-5.png"></image>
+    <text>新闻</text>
+  </view>
+  <view>
+    <image src="/images/nav-6.png"></image>
+    <text>新闻</text>
+  </view>
+  <view>
+    <image src="/images/nav-7.png"></image>
+    <text>新闻</text>
+  </view>
+  <view>
+    <image src="/images/nav-8.png"></image>
+    <text>新闻</text>
+  </view>
+</view>
+
+<view class='news'>
+  <view class='news_title'>
+    <image src='/images/news.png'></image>
+  </view>
+  <view class='news_content'>
+    <swiper vertical="{{true}}" autoplay='{{true}}' circular="{{true}}">
+    <swiper-item>
+      <view>
+        <text>xx</text>
+        <text>我好烦啊海军的金卡水库大家哈苏好的</text>
+        <text class='iconfont icon-xiangyou'></text>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <text>xx</text>
+        <text>的骄傲送i回家都爱红日u球会然后去</text>
+        <text class='iconfont icon-xiangyou'></text>
+      </view>
+    </swiper-item>
+  </swiper>
+  </view>
+</view>
+<scroll-view scroll-x="true">
+  <view class="new">
+    <view>
+    <image src='http://activity.crmeb.net/public/uploads/editor/20190115/5c3dc182bccac.jpg'></image>
+    <text>112121</text>
+    </view>
+    <view>
+    <image src='http://activity.crmeb.net/public/uploads/editor/20190115/5c3dc182bccac.jpg'></image>
+    <text>112121</text>
+    </view>
+    <view>
+    <image src='http://activity.crmeb.net/public/uploads/editor/20190115/5c3dc182bccac.jpg'></image>
+    <text>112121</text>
+    </view>
+  </view>
+</scroll-view>
+<my-menu></my-menu>

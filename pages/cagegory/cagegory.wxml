@@ -1,0 +1,38 @@
+<my-header title="你好"></my-header>
+<view class="search iconfont icon-xiazai5">
+ <input></input>
+</view>
+<view class="main">
+  <view class="left">
+    <view wx:for="{{category}}"
+    class="{{index == active&&'active'}}"
+    data-index="{{index}}"
+    bindtap="changeActive"
+    >
+    {{item.cate_name}}
+    </view>
+  </view>
+  <view class="right">
+    <scroll-view scroll-y="true"
+    scroll-into-view="{{uid}}"
+    scroll-with-animation="true"
+     style="height:950rpx">
+      <view 
+      wx:for="{{category}}" 
+      id="{{'a'+index}}"
+      class="item">
+        <view class="item_title">
+         ————{{item.cate_name}}————
+        </view>
+        <view class="item_content">
+          <view wx:for="{{item.child}}"
+          bindtap="gotoList" data-id="{{item.id}}">
+            <image src="{{item.pic}}"></image>
+            <text>{{item.cate_name}}</text>
+          </view>
+        </view>
+      </view>
+      <view style="height:760rpx"></view>
+    </scroll-view>
+  </view>
+</view>

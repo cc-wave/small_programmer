@@ -1,0 +1,63 @@
+/* pages/index/index.wxss */
+.banner {
+  height: 100%
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav view {
+  width: 25%; display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav image {
+  width: 60%; height:115rpx;
+}
+.nav text {
+    padding: 20rpx 0;
+}
+
+.news {
+  display: flex;
+  height: 60rpx;
+  border-top: 1px solid #ddd;
+  align-items: center;
+  padding-left:30rpx; 
+}
+
+.news_title {
+  flex: 1;
+  height: 30rpx;
+  border-right: 1px solid #ccc;
+  padding-right:20rpx; 
+}
+.news_title image{
+  width: 100%;height: 100%; 
+}
+.news_content {
+  padding-left:20rpx;
+  flex: 4;
+  height: 50rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 12rpx;
+}
+
+.news_content swiper {
+  height: 100%; width: 100%
+}
+
+.new{
+  display: flex;
+  height: 300rpx;
+  width: 1200rpx;
+}
+.new view{
+  width: 80%;
+}
+.new view image{
+  width: 100%;
+  height: 70%;
+}

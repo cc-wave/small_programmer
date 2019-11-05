@@ -1,0 +1,31 @@
+<my-header title="列表" color="{{true}}"></my-header>
+<view class='tap'>
+  <view class='search'>
+      <text class='iconfont icon-xiazai5'></text>
+      <input type='text'></input>
+  </view>
+  <view bindtap='toggle' class='toggle {{flag?"iconfont icon-pailie":"iconfont icon-tupianpailie"}}'></view>
+</view>
+<view class='sort'>
+  <view class='active'>新品上线</view>
+  <view>价格
+    <image src='/images/horn.png'></image>
+  </view>
+  <view>销量
+   <image src='/images/horn.png'></image>
+  </view>
+  <view>新品</view>
+</view>
+
+<view class='{{flag?"list":"list2"}}'>
+  <block wx:for="{{list}}" wx:key>
+  <view class='item' bindtap="goto" data-item="{{item}}">
+    <image src='{{item.image}}'></image>
+    <view style='width:100%' class='content'>
+      <text class='title'>{{item.store_name}}</text>
+      <text class='price'>{{item.price}}</text>
+      <text class='sale'>已售{{item.sales}}件</text>
+    </view>
+  </view>
+  </block>
+</view>
